@@ -2,9 +2,9 @@
 
 import Head from 'next/head';
 import HTMLParse from 'html-react-parser';
-import IS_DEV_ENV from '@shared/isDevEnv';
+import IS_DEV_ENV from '@shared/isDevEnv.js';
 
-export default function HeadTag({tags}) {
+export default function HeadTags({tags}) {
     return (
       <Head>
         <meta
