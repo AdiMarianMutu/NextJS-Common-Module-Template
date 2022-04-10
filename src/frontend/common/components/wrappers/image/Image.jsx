@@ -28,7 +28,7 @@ export default function _Image(props) {
       : {};
 
   const _Image = (
-    <div className={wrapperClasses} style={{width: '100%', height: '100%'}} data-image-render-wrapper=''>
+    <div className={wrapperClasses} style={{position: 'relative', width: '100%', height: '100%'}} data-image-render-wrapper=''>
       {!loaded && (
         <div
           className={`${styles.loading} ${loaderClasses ? loaderClasses : ''}`}
